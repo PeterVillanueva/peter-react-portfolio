@@ -155,7 +155,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://github.com/PeterVilanueva"
+                href="https://github.com/PeterVillanueva"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
