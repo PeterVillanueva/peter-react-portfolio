@@ -37,27 +37,27 @@ export default function Hero() {
 
   return (
     <section id="hero" className="hero relative flex w-full h-screen select-none items-center justify-center" aria-label="hero">
-      <div className="z-10 flex flex-col  w-full items-center text-title 2xl:text-[10vw] 2xl:space-y-16 font-bold  uppercase text-accent-300">
-        <div className="title 2xl:py-16">
+      <div className="z-10 flex flex-col w-full items-center text-title 2xl:text-[9vw] 2xl:space-y-16 font-bold  uppercase text-accent-300">
+        <div className="title 2xl:py-0">
           {/* Learn more about useRef */}
           <h1 ref={(el) => (titles.current[0] = el)} className="translate-y-96 overflow-visible">
-            Hey, I&apos;m Huy
+            Hey, I&apos;m Peter
           </h1>
         </div>
-        <div className=" title 2xl:py-16">
+        <div className=" title 2xl:py-0">
         <h1 ref={(el) => (titles.current[1] = el)} className="translate-y-96 font-outline-3 md:font-outline-4 text-transparent overflow-visible">
-            Hey, I&apos;m Huy
+            Hey, I&apos;m Peter
           </h1>
         </div>
-        <div className=" title 2xl:py-16">
+        <div className=" title 2xl:py-0">
           <h1 ref={(el) => (titles.current[2] = el)} className="translate-y-96">
-            Hey, I&apos;m Huy
+            Hey, I&apos;m Peter
           </h1>
         </div>
       </div>
       <div
         ref={imgContainer}
-        className="absolute mx-auto  w-[55%] overflow-hidden rounded-md"
+        className="absolute mx-auto w-[55%] overflow-hidden rounded-md"
       >
         <img
           ref={img}

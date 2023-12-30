@@ -3,10 +3,11 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import Cursor from "./components/ui/Cursor.jsx";
 import "./index.css";
+import CustomCursor from './components/ui/CustomCursor.jsx';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Cursor />
+    <CustomCursor />
     <App />
   </React.StrictMode>
 );

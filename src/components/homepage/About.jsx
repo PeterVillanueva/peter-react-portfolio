@@ -58,7 +58,7 @@ export default function About() {
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
               I am an independent frontend developer, UI/UX designer and creator based in
-              Melbourne, Australia.
+              Iloilo, Philippines.
               <br></br>
               <br></br>I specialize in crafting elevated, intuitive, and
               minimalistic designs for startups and small businesses to help
@@ -69,7 +69,7 @@ export default function About() {
               that talk about frontend development, productivity and design on{" "}
               <a
                 className="underline duration-300 ease-in-out hover:text-secondary-700"
-                href="https://www.youtube.com/channel/UCBOAB9RV647G93GxLhEXleA"
+                href=""
               >
                 YouTube 📸
               </a>
