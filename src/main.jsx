@@ -7,7 +7,7 @@ import CustomCursor from './components/ui/CustomCursor.jsx';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <CustomCursor />
+    <Cursor />
     <App />
   </React.StrictMode>
 );
