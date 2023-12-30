@@ -128,12 +128,12 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
               <a
-                href="mailto:hello@huyng.xyz"
+                href="peterdonniel4444@gmail.com"
                 className="group relative w-fit cursor-pointer"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>hello@huyng.xyz</span>
+                <span>peterdonniel4444@gmail.com</span>
                 <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
               </a>
              
@@ -143,19 +143,19 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
               <a
-                href="https://bento.me/huyng"
+                href="https://web.facebook.com/PeterDonnielVillanueva"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
               >
-                <Icon icon="simple-icons:bento" color="#666" />
+                <Icon icon="simple-icons:facebook" color="#666" />
                 <div className="relative">
-                  <span>Bento</span>
+                  <span>Facebook</span>
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
               <a
-                href="https://github.com/huyngxyz"
+                href="https://github.com/PeterVilanueva"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -167,7 +167,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.linkedin.com/in/huyng03/"
+                href="https://www.linkedin.com/in/peter-villanueva-151068248/"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -179,7 +179,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.youtube.com/channel/UCBOAB9RV647G93GxLhEXleA"
+                href="https://www.youtube.com/channel/UC8EadpqQUbz8T2eZKt90Awg"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
