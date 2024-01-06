@@ -65,7 +65,7 @@ export default function Works({ forwardedRef }) {
             name="SUNNYSIDE LANDING PAGE"
             type="Frontend Development"
             year="2022"
-            tools="HTML • TailwindCSS • JavaScript"
+            tools="TailwindCSS • JavaScript"
           />
          
         </div>
