@@ -65,13 +65,13 @@ export default function About() {
               them stand out in the digital landscape with a powerful impact. 😎
               <br></br>
               <br></br>
-              When I am not developing or designing, I enjoy creating videos
-              that talk about frontend development, productivity and design on{" "}
+              When I am not developing or designing, I enjoy playing MMORPG like Genshin Impact and 
+              Dominating Dungeons{" "}
               <a
                 className="underline duration-300 ease-in-out hover:text-secondary-700"
                 href=""
               >
-                YouTube 📸
+                ⚔️
               </a>
             </p>
           </div>
