@@ -1,4 +1,3 @@
-// projectsData.js
 import ibgroup from '/src/assets/images/ib-group-desktop.webp';
 import memento from '/src/assets/images/memento-desktop.webp';
 import acc from '/src/assets/images/acc-square.webp';
