@@ -12,11 +12,12 @@ import Works from "./components/homepage/Works";
 import Contact from "./components/homepage/Contact";
 import Footer from "./components/ui/Footer";
 
-const App = () => {
- 
+function App() {
+
   gsap.registerPlugin(ScrollTrigger);
 
   const sectionRefs = useRef([]); // Creating a sectionRefs array
+
 
   // Scrub animation of section headings
   useEffect(() => {
@@ -28,7 +29,7 @@ const App = () => {
       headings.forEach((individualHeading) => {
         ScrollTrigger.create({
           trigger: heading,
-          start: "top 550px",  
+          start: "top 550px",
           end: "bottom 550px",
           animation: gsap.to(individualHeading, {
             opacity: 1,
@@ -37,14 +38,13 @@ const App = () => {
             duration: 1,
           }),
           toggleActions: "play none none none",
-
         });
-        ScrollTrigger.refresh()
+        ScrollTrigger.refresh();
       });
     });
   }, []);
 
-  
+
 
   return (
     <div className="bg-secondary-100">
@@ -62,6 +62,6 @@ const App = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
