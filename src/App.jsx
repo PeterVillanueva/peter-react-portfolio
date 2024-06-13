@@ -11,6 +11,7 @@ import Services from "./components/homepage/Services";
 import Works from "./components/homepage/Works";
 import Contact from "./components/homepage/Contact";
 import Footer from "./components/ui/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
@@ -59,6 +60,7 @@ function App() {
         <Works forwardedRef={(el) => (sectionRefs.current[1] = el)} />
         <Contact />
       </main>
+      <Analytics />
       <Footer />
     </div>
   );
