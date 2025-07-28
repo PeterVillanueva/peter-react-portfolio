@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row md:w-[62.5vw] lg:w-[57.5vw] justify-between">
         <div className="flex space-x-1" >
           <span>&copy;</span>
-          <span>2023</span>
+          <span>2025</span>
           <span className="font-extrabold uppercase 2xl:text-body-1">Peter Villanueva</span>
         </div>
         <div>
