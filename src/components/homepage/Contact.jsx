@@ -128,12 +128,19 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
               <a
-                href="peterdonniel4444@gmail.com"
+                href="mailto:peterprogrammer4444@gmail.com"
                 className="group relative w-fit cursor-pointer"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>peterdonniel4444@gmail.com</span>
+                <span>peterprogrammer4444@gmail.com</span>
+                <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+              </a>
+              <a
+                href="tel:09876543210"
+                className="group relative w-fit cursor-pointer"
+              >
+                <span>09876543210</span>
                 <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
               </a>
              
